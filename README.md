@@ -13,8 +13,8 @@ Bende çalışmadı..
 
 You set the code according to your own handler.
 
-``javascript
-  let uid = args[0];
+```javascript
+ let uid = args[0];
 ```
 part if message.mentions.members.first() || You could try doing message.guild.members.cache.get(args[0]) .
 It didn't work for me..
