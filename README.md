@@ -1,4 +1,4 @@
-# Discord kullanıcı bannerı alma
+# Discord User Banner
 Discord kullanıcı bannerı alma kodu.Çalışıyor.
 
 Kodu kendi handlerınıza göre ayarlarsınız. 
