@@ -1,5 +1,5 @@
-        const user = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
-        let uid = user.id // let uid = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author; = x !
+       const user = args.length > 0 ? message.mentions.users.first() || await client.users.fetch(args[0]) || message.author : message.author
+       let uid = user.id // let uid = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author; = x !
         let response = fetch(`https://discord.com/api/v8/users/${uid}`, {
             method: 'GET',
             headers: {
