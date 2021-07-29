@@ -1,5 +1,5 @@
-        let uid = args[0];
-        if(!uid) return message.channel.send('Bir Kullanıcı idsi belirt!')
+        const user = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
+        let uid = user.id // let uid = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author; XXX
         let response = fetch(`https://discord.com/api/v8/users/${uid}`, {
             method: 'GET',
             headers: {
