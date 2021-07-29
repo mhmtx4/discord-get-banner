@@ -1,4 +1,4 @@
-# Banner-Alma
+# Discord kullanıcı banner komutu
 Discord kullanıcı bannerı alma kodu.Çalışıyor.
 
 Kodu kendi handlerınıza göre ayarlarsınız. 
