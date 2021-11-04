@@ -3,7 +3,7 @@
         let response = fetch(`https://discord.com/api/v8/users/${uid}`, {
             method: 'GET',
             headers: {
-                Authorization: `Bot ${token.TOKEN}`
+                Authorization: `Bot ${settings.token}`
             }
         })
         
@@ -20,7 +20,7 @@
         let response2 = fetch(`https://cdn.discordapp.com/banners/${uid}/${receive}.gif`, {
             method: 'GET',
             headers: {
-                Authorization: `Bot ${token.TOKEN}`
+                Authorization: `Bot ${settings.token}`
             }
         })
         let statut = ''
